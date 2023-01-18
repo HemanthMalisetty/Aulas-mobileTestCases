@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="18" total="19" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-18T16:53:41 IST" name="Default suite" finished-at="2023-01-18T16:53:47 IST" duration-ms="6083">
+    <groups>
+    </groups>
+    <test started-at="2023-01-18T16:53:41 IST" name="Default test" finished-at="2023-01-18T16:53:47 IST" duration-ms="6083">
+      <class name="TestCasesMobile.SmokeTestCasesForMobile">
+        <test-method is-config="true" signature="doLoginOperation()[pri:0, instance:TestCasesMobile.SmokeTestCasesForMobile@4b520ea8]" started-at="2023-01-18T16:53:17 IST" name="doLoginOperation" finished-at="2023-01-18T16:53:41 IST" duration-ms="24885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginOperation -->
+        <test-method signature="CreateScheduleBroadcast()[pri:1, instance:TestCasesMobile.SmokeTestCasesForMobile@4b520ea8]" started-at="2023-01-18T16:53:41 IST" name="CreateScheduleBroadcast" finished-at="2023-01-18T16:53:47 IST" duration-ms="6018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateScheduleBroadcast -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCasesMobile.SmokeTestCasesForMobile@4b520ea8]" started-at="2023-01-18T16:53:47 IST" name="tearDown" finished-at="2023-01-18T16:53:47 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at Andriod_BaseTest.AulasBaseTest.tearDown(AulasBaseTest.java:272)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:222)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:131)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCasesMobile.SmokeTestCasesForMobile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
