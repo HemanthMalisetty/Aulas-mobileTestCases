@@ -261,7 +261,9 @@ public class AulasBaseTest  {
 	
 	public static  AppiumDriverLocalService runAppiumService(int appiumPort) {
 		String home2 = System.getProperty("user.home");
-		String strMainJSPath=	home2+"//AppData"+"//Roaming"+"//npm"+"//node_modules"+"//appium"+"//build"+"//lib"+"//main.js";
+		//String strMainJSPath=	home2+"//AppData"+"//Roaming"+"//npm"+"//node_modules"+"//appium"+"//build"+"//lib"+"//main.js";
+		String strMainJSPath= "usr/local/lib/node_modules/appium/build/lib/main.js";
+
         //Build parameters for appium server:
         AppiumServiceBuilder appiumServiceBuilder = new AppiumServiceBuilder();
         appiumServiceBuilder.usingPort(appiumPort)
