@@ -81,9 +81,10 @@ public class AulasBaseTest  {
 		String home2 = System.getProperty("user.home");
 		String strMainJSPath=	home2+"//AppData"+"//Roaming"+"//npm"+"//node_modules"+"//appium"+"//build"+"//lib"+"//main.js";
 		
+		
 		/*builder = new AppiumServiceBuilder()
 				.withAppiumJS(new File(
-						"C://Users//Prabhakar//AppData//Roaming//npm//node_modules//appium//build//lib//main.js"))
+						"C://Users//Nandini//AppData//Roaming//npm//node_modules//appium//build//lib//main.js"))
 				.withIPAddress(ipAddress).usingPort(port).build();*/
 		builder = new AppiumServiceBuilder()
 				.withAppiumJS(new File(strMainJSPath))
