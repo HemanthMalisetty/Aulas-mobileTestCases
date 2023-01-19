@@ -65,7 +65,8 @@ public class AulasBaseTest  {
 		
 		
 		System.out.println("The home path is :"+home);
-	String strPath=home+"\\Downloads" +"\\app-release (3)"+ ".apk"; 
+	//String strPath=home+"\\Downloads" +"\\app-release (3)"+ ".apk"; 
+		String strPath="C://Users//Nandini"+"//Downloads" +"//app-release (3)"+ ".apk"; 
 	
 		System.out.println("The file path is "+" "+strPath);
 		options.setApp(strPath);
@@ -75,6 +76,10 @@ public class AulasBaseTest  {
 		LP = new LoginPage(driver);
 	}
 
+	
+	
+	
+	
 	public static AppiumDriverLocalService startAppiumServer(String ipAddress, int port)  {
 		// to start appium server
 		
