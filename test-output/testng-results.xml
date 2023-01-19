@@ -2,24 +2,24 @@
 <testng-results ignored="18" total="19" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-18T16:53:41 IST" name="Default suite" finished-at="2023-01-18T16:53:47 IST" duration-ms="6083">
+  <suite started-at="2023-01-19T11:36:01 IST" name="Default suite" finished-at="2023-01-19T11:36:07 IST" duration-ms="6084">
     <groups>
     </groups>
-    <test started-at="2023-01-18T16:53:41 IST" name="Default test" finished-at="2023-01-18T16:53:47 IST" duration-ms="6083">
+    <test started-at="2023-01-19T11:36:01 IST" name="Default test" finished-at="2023-01-19T11:36:07 IST" duration-ms="6084">
       <class name="TestCasesMobile.SmokeTestCasesForMobile">
-        <test-method is-config="true" signature="doLoginOperation()[pri:0, instance:TestCasesMobile.SmokeTestCasesForMobile@4b520ea8]" started-at="2023-01-18T16:53:17 IST" name="doLoginOperation" finished-at="2023-01-18T16:53:41 IST" duration-ms="24885" status="PASS">
+        <test-method is-config="true" signature="doLoginOperation()[pri:0, instance:TestCasesMobile.SmokeTestCasesForMobile@4b520ea8]" started-at="2023-01-19T11:34:50 IST" name="doLoginOperation" finished-at="2023-01-19T11:36:01 IST" duration-ms="71272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLoginOperation -->
-        <test-method signature="CreateScheduleBroadcast()[pri:1, instance:TestCasesMobile.SmokeTestCasesForMobile@4b520ea8]" started-at="2023-01-18T16:53:41 IST" name="CreateScheduleBroadcast" finished-at="2023-01-18T16:53:47 IST" duration-ms="6018" status="PASS">
+        <test-method signature="CreateScheduleBroadcast()[pri:1, instance:TestCasesMobile.SmokeTestCasesForMobile@4b520ea8]" started-at="2023-01-19T11:36:01 IST" name="CreateScheduleBroadcast" finished-at="2023-01-19T11:36:07 IST" duration-ms="6012" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateScheduleBroadcast -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCasesMobile.SmokeTestCasesForMobile@4b520ea8]" started-at="2023-01-18T16:53:47 IST" name="tearDown" finished-at="2023-01-18T16:53:47 IST" duration-ms="1" status="FAIL">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCasesMobile.SmokeTestCasesForMobile@4b520ea8]" started-at="2023-01-19T11:36:07 IST" name="tearDown" finished-at="2023-01-19T11:36:07 IST" duration-ms="3" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at Andriod_BaseTest.AulasBaseTest.tearDown(AulasBaseTest.java:272)
+at Andriod_BaseTest.AulasBaseTest.tearDown(AulasBaseTest.java:274)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

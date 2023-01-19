@@ -79,7 +79,8 @@ public class AulasBaseTest  {
 		// to start appium server
 		
 		String home2 = System.getProperty("user.home");
-		String strMainJSPath=	home2+"//AppData"+"//Roaming"+"//npm"+"//node_modules"+"//appium"+"//build"+"//lib"+"//main.js";
+		//String strMainJSPath=	home2+"//AppData"+"//Roaming"+"//npm"+"//node_modules"+"//appium"+"//build"+"//lib"+"//main.js";
+		String strMainJSPath="C://Users//Nandini//AppData//Roaming//npm//node_modules//appium//build//lib//main.js";
 		
 		
 		/*builder = new AppiumServiceBuilder()
